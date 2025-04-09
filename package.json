@@ -34,5 +34,17 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.1.3"
-  }
+  },
+  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19090491&assignment_repo_type=AssignmentRepo)\r # Angular2",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Softrefine-Internship/angular-2-anushka1706.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Softrefine-Internship/angular-2-anushka1706/issues"
+  },
+  "homepage": "https://github.com/Softrefine-Internship/angular-2-anushka1706#readme"
 }
