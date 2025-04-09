@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-2';
+  @ViewChild('childRef') child!: ElementRef
+  bgColor!: string;
+  textColor!: string;
+  updateBg() {
+    this.child.nativeElement.style.backgroundColor = this.bgColor
+  }
+  updateText() {
+    this.child.nativeElement.style.color = this.textColor
+  }
 }
